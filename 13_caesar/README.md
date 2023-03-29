@@ -31,3 +31,17 @@ negative numbers should work as well:
 ```javascript
 caesar('Mjqqt, Btwqi!', -5) // returns 'Hello, World!'
 ```
+
+
+preperation
+
+convert the string to array
+- chain split + map + join methods
+
+should not mutate original array
+
+a function that asks getNewPos for the new location of each letter and prints it
+
+a seperate getNewPos function that determines the location of the new letter, for example when Z needs to become A, and if it's punctuation - don't change
+
+
