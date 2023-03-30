@@ -14,3 +14,17 @@ leapYears(1985) // is not a leap year: returns false
 
 ## Hints
 - use an `if` statement and `&&` to make sure all the conditions are met properly
+
+
+planning
+
+Leap years should be:
+- (devisable by 4) and (not devisable by 100)
+- (Devisable by 100) and (devisable by 400)
+
+pseudo code
+
+- get a year argument
+- if year argument is devisable by 100 && devisable by 400, return true
+- if year argument is not devisable by 100 but devisable by 4, return true
+else return false

@@ -24,3 +24,12 @@ getTheTitles(books) // ['Book','Book2']
 ## Hints
 
 - You should use a built-in javascript method to do most of the work for you!
+
+
+preperation
+
+- the join method creates and return a new string by concatenating all of the strings in an array, separated by a specified separator
+- the split method splits a string into an array of substrings:
+  text.split(" ") splits the words
+- the map method:
+  - const titles = books.map(({ title }) => ({title}));
